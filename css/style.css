@@ -1,0 +1,84 @@
+body{
+  background-color: #f2f2f2;
+}
+
+header{
+position: absolute;
+left: 400px;
+right: 0;
+height: 120px;
+background: red;
+}
+
+section{
+  position: absolute;
+  width: 400px;
+}
+
+.superior_izq, .superior_dcho{
+  float: left;
+  width: 481px;
+  height: 115px;
+  border: 1px solid #000000;
+}
+
+.superior_dcho{
+  float: right;
+}
+
+.lateral{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 400px;
+  height: 657px;
+  border-right: 1px solid #000000;
+}
+
+.titulo_formulario{
+  position: absolute;
+  margin: 0;
+  top: 40px;
+  font: 40px 'Thasadith', sans-serif;
+  color: #00d4a7;
+}
+
+.boton{
+  position: absolute;
+  bottom: 110px;
+  background-color: #00d4a7;
+  width: 200px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font: bold 20px 'Thasadith', sans-serif;
+}
+
+.pieDePagina{
+  position: absolute;
+  margin: 0;
+  right: 10px;
+  bottom: 10px;
+  font: 15px 'Roboto Condensed', sans-serif;
+  color: #808080;
+}
+
+input{
+  display: block;
+  margin: 35px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #00d4a7;
+  outline: none;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+input::placeholder{
+  color: #808080;
+  font: 15px 'Roboto Condensed', sans-serif;
+}
