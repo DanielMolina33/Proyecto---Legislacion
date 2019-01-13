@@ -136,7 +136,7 @@ header{
 /* CLASES CAMBIANTES */
 
 .contenedor_resumen{
-  transition: border 1000ms;
+  transition:  1000ms;
   display: flex;
   justify-content: center;
   align-items: center;
